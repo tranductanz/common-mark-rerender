@@ -9,14 +9,6 @@
     "renderer"
   ],
   "main": "src/commonmark-react-renderer.js",
-  "scripts": {
-    "coverage": "istanbul cover node_modules/.bin/_mocha -- --reporter spec",
-    "lint": "eslint .",
-    "prepublishOnly": "npm test",
-    "posttest": "npm run lint",
-    "test": "mocha --reporter spec",
-    "test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- --reporter spec"
-  },
   "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
   "license": "MIT",
   "devDependencies": {
@@ -26,13 +18,13 @@
     "eslint-plugin-react": "^7.29.3",
     "istanbul": "^0.4.5",
     "mocha": "^9.2.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "18",
+    "react-dom": "18"
   },
   "dependencies": {
     "lodash.assign": "^4.2.0",
     "lodash.isplainobject": "^4.0.6",
-    "pascalcase": "^0.1.1",
-    "xss-filters": "^1.2.6"
+    "pascalcase": "^2.0.0",
+    "xss-filters": "^1.2.7"
   }
 }

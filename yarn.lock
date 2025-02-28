@@ -521,7 +521,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camelcase@npm:^6.0.0":
+"camelcase@npm:^6.0.0, camelcase@npm:^6.2.1":
   version: 6.3.0
   resolution: "camelcase@npm:6.3.0"
   checksum: 10c0/0d701658219bd3116d12da3eab31acddb3f9440790c0792e0d398f0a520a6a4058018e546862b6fba89d7ae990efaeb97da71e1913e9ebf5a8b5621a3d55c710
@@ -627,10 +627,10 @@ __metadata:
     lodash.assign: "npm:^4.2.0"
     lodash.isplainobject: "npm:^4.0.6"
     mocha: "npm:^9.2.1"
-    pascalcase: "npm:^0.1.1"
-    react: "npm:^17.0.2"
-    react-dom: "npm:^17.0.2"
-    xss-filters: "npm:^1.2.6"
+    pascalcase: "npm:^2.0.0"
+    react: "npm:18"
+    react-dom: "npm:18"
+    xss-filters: "npm:^1.2.7"
   languageName: unknown
   linkType: soft
 
@@ -2808,10 +2808,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pascalcase@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "pascalcase@npm:0.1.1"
-  checksum: 10c0/48dfe90618e33810bf58211d8f39ad2c0262f19ad6354da1ba563935b5f429f36409a1fb9187c220328f7a4dc5969917f8e3e01ee089b5f1627b02aefe39567b
+"pascalcase@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "pascalcase@npm:2.0.0"
+  dependencies:
+    camelcase: "npm:^6.2.1"
+  checksum: 10c0/c43658cd7bea0dc2b4362b0b15c803ee976fb6f981addab8452e1ad67cd768739979b7e687df38452f3743af34fe00f0292234f5aceb73457babb3fbdd585863
   languageName: node
   linkType: hard
 
@@ -2939,16 +2941,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react-dom@npm:17.0.2"
+"react-dom@npm:18":
+  version: 18.3.1
+  resolution: "react-dom@npm:18.3.1"
   dependencies:
     loose-envify: "npm:^1.1.0"
-    object-assign: "npm:^4.1.1"
-    scheduler: "npm:^0.20.2"
+    scheduler: "npm:^0.23.2"
   peerDependencies:
-    react: 17.0.2
-  checksum: 10c0/51abbcb72450fe527ebf978c3bc989ba266630faaa53f47a2fae5392369729e8de62b2e4683598cbe651ea7873cd34ec7d5127e2f50bf4bfe6bd0c3ad9bddcb0
+    react: ^18.3.1
+  checksum: 10c0/a752496c1941f958f2e8ac56239172296fcddce1365ce45222d04a1947e0cc5547df3e8447f855a81d6d39f008d7c32eab43db3712077f09e3f67c4874973e85
   languageName: node
   linkType: hard
 
@@ -2959,13 +2960,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
+"react@npm:18":
+  version: 18.3.1
+  resolution: "react@npm:18.3.1"
   dependencies:
     loose-envify: "npm:^1.1.0"
-    object-assign: "npm:^4.1.1"
-  checksum: 10c0/07ae8959acf1596f0550685102fd6097d461a54a4fd46a50f88a0cd7daaa97fdd6415de1dcb4bfe0da6aa43221a6746ce380410fa848acc60f8ac41f6649c148
+  checksum: 10c0/283e8c5efcf37802c9d1ce767f302dd569dd97a70d9bb8c7be79a789b9902451e0d16334b05d73299b20f048cbc3c7d288bbbde10b701fa194e2089c237dbea3
   languageName: node
   linkType: hard
 
@@ -3155,13 +3155,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.20.2":
-  version: 0.20.2
-  resolution: "scheduler@npm:0.20.2"
+"scheduler@npm:^0.23.2":
+  version: 0.23.2
+  resolution: "scheduler@npm:0.23.2"
   dependencies:
     loose-envify: "npm:^1.1.0"
-    object-assign: "npm:^4.1.1"
-  checksum: 10c0/b0982e4b0f34f4ffa4f2f486161c0fd9ce9b88680b045dccbf250eb1aa4fd27413570645455187a83535e2370f5c667a251045547765408492bd883cbe95fcdb
+  checksum: 10c0/26383305e249651d4c58e6705d5f8425f153211aef95f15161c151f7b8de885f24751b377e4a0b3dd42cce09aad3f87a61dab7636859c0d89b7daf1a1e2a5c78
   languageName: node
   linkType: hard
 
@@ -3823,7 +3822,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xss-filters@npm:^1.2.6":
+"xss-filters@npm:^1.2.7":
   version: 1.2.7
   resolution: "xss-filters@npm:1.2.7"
   checksum: 10c0/298d1b3faa205387d503236cde0bf2b5781ac449097a0b858557b710a5cb60fc95c1134007eab68153828bbe32efcaea4e07fd1e4ab2202999d961b0ffec4c48
